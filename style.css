@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+.container div{
+    border: 1px solid black;
+    padding: 10px;
+}
+*{
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+}
+* img{
+    max-width: 250px;
+}
+* a{
+    color: black;
+}
+* a:hover{
+    border-bottom: 2px solid black;
+    transition: 0.06s;
+}
+.container{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(0 auto);
+}
+.container div{
+    display: block;
+    text-align: center;
+    justify-self: center;
+    align-self: end;
+    background-color: snow;
+}
+body{
+    background-color: rgb(174, 179, 165);
+}
+.item4 h1:hover{
+    border: 2px solid black;
+    transition: 0.06s;
+}
+.item4:hover{
+    background-color: darkcyan;
+}
+.ttt{
+    text-align: center;
+}
